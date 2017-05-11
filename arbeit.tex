@@ -1,0 +1,37 @@
+\documentclass[12pt,a4paper]{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{acronym}
+\usepackage{csquotes}
+\usepackage[ngerman]{babel}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{geometry}
+\geometry{a4paper, right=60mm}
+\usepackage[textwidth=55mm]{todonotes}
+\usepackage{setspace}
+\usepackage{selinput}
+\SelectInputMappings{
+  adieresis={ä},
+  germandbls={ß}
+}
+\author{Pit Braunsdorf}
+\title{Thema: Entwurf eines Systems zur Erkennung von chirurgischen Instrumenten}
+
+\begin{document}
+	\include{titlepage}
+	\tableofcontents
+	
+	\listoftodos
+	%\include{abkuerzungen}
+	\include{einleitung}
+	\include{systembeschreibung}
+	\include{systementwurf}
+	\include{zusammenfassung}
+	\include{eidesstattliche_erklaerung}
+	%\bibliography{literatur} 
+	%\bibliographystyle{ieeetr}
+\end{document}
